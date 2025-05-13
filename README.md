@@ -41,4 +41,6 @@ See also the example corpus config file.
 
 ## Models
 
-All of the models used in this plugin are classifiers based on [KB-BERT](https://huggingface.co/KB/bert-base-swedish-cased). They can be found [here](https://huggingface.co/collections/Turtilla/pi-detection-and-labeling-6822fbc8fbccfc2527c019ba). See [this publication](https://aclanthology.org/2025.nodalida-1.70/) for training details.
+All of the models used in this plugin are classifiers based on [KB-BERT](https://huggingface.co/KB/bert-base-swedish-cased). They can be found [here](https://huggingface.co/collections/Turtilla/pi-detection-and-labeling-6822fbc8fbccfc2527c019ba). See [this publication](https://aclanthology.org/2025.nodalida-1.70/) for training details.  
+
+See the webpage of the [Mormor Karl project](https://mormor-karl.github.io/) for more information on the work we do on automatic pseudonymization of research data.
