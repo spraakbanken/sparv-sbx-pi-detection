@@ -1,0 +1,15 @@
+[project]
+name = "sbx-pi-detection"
+version = "0.1.0"
+description = "Personal Information Detection tool"
+readme = "README.md"
+license.text = "MIT License"
+# authors = [
+#     { name = "Maria Irena Szawerna", email = "maria.szawerna@gu.se" }
+# ]
+dependencies = [
+    "sparv-pipeline~=5.0",
+    "transformers>=4.51.3",
+    "torch"
+]
+entry-points."sparv.plugin" = { sbx_pi_detection = "sbx_pi_detection" }
