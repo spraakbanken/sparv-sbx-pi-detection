@@ -1,0 +1,13 @@
+metadata:
+  id: pikorpus
+  language: swe
+import:
+  importer: text_import:parse
+  text_annotation: text
+export:
+  annotations:
+    - <sentence>
+    - <token>
+    - <token>:sbx_pi_detection.pi
+sbx_pi_detection:
+  annotation_level: general
