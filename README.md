@@ -37,7 +37,7 @@ sbx_pi_detection:
   annotation_level: general
 ```
 
-See also the example corpus config file.
+See also the [example corpus config file](https://github.com/spraakbanken/sparv-sbx-pi-detection/blob/main/sbx_pi_detection/testkorpus/config.yaml).
 
 ## Models
 
