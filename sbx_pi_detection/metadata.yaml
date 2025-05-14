@@ -1,0 +1,29 @@
+id: "sbx-swe-pi_detection-sparv"
+description:
+  swe: "En Sparv-plugin som möjliggör upptäckt och annotering av personlig information i svenska texter, särskilt L2 uppsatser (observera att den här annoteringen fungerar betydligt sämre för andra domäner, men modellerna som används nu kommer sannolikt att uppdateras)."
+  eng: "A plugin for Sparv for detecting personal information in Swedish texts, especially learner essays (note: performs noticeably worse on other domains, but the models used for annotation will likely be updated in the future)."
+short_description:
+  swe: "En Sparv-plugin som möjliggör upptäckt och annotering av personlig information i svenska texter, särskilt L2 uppsatser.'"
+  eng: "A plugin for Sparv for detecting personal information in Swedish texts, especially learner essays."
+type: "analysis"
+task: "PI detection"
+plugin_url: https://github.com/spraakbanken/sparv-sbx-pi-detection
+analysis_unit: "token"
+models:
+  url: https://huggingface.co/collections/Turtilla/pi-detection-and-labeling-6822fbc8fbccfc2527c019ba
+license: "MIT license"
+annotations:
+  - <token>:sbx_pi_detection.pi
+example_output: |-
+  ```xml
+  <token pi="O">Jag</token>
+  <token pi="O">heter</token>
+  <token pi="personal_name">Maria</token>
+  <token pi="O">.</token>
+  ```
+example_extra: |-
+    In order to use this plugin you need to add the following setting to your Sparv corpus configuration file with the appropriate argument (basic, basic_iob, general, general_iob, detailed, or detailed_iob):
+    ```yaml
+    sbx_pi_detection:
+      annotation_level: general
+    ```
