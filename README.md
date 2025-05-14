@@ -4,24 +4,29 @@ A plugin for [Sparv](https://github.com/spraakbanken/sparv) for detecting person
 
 ## Install
 
-First, install [Sparv](https://github.com/spraakbanken/sparv):  
+1. Install [Sparv](https://github.com/spraakbanken/sparv):  
 ```
 pipx install sparv-pipeline
 ```
 
-Clone this plugin's repository:  
+2. Clone this plugin's repository:  
 ```
 git clone https://github.com/spraakbanken/sparv-sbx-pi-detection
 ```
 
-Inject the plugin into Sparv:  
+3. Inject the plugin into Sparv:  
 ```
-pipx inject -e sparv-pipeline /YOUR/PATH/TO/THE/PLUGIN/sparv-sbx-pi-detection
+pipx inject sparv-pipeline /YOUR/PATH/TO/THE/PLUGIN/sparv-sbx-pi-detection
+```
+
+Alternatively to 2 & 3:
+```
+pipx inject sparv-pipeline https://github.com/spraakbanken/sparv-sbx-pi-detection/archive/main.zip
 ```
 
 _In case you need to uninstall the plugin:_  
 ```
-pipx runpip sparv-pipeline uninstall sbx_pi_detection
+pipx runpip sparv-pipeline uninstall sparv-sbx-pi-detection
 ```
 
 ## Usage
