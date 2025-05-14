@@ -1,5 +1,5 @@
 [project]
-name = "sbx-pi-detection"
+name = "sparv-sbx-pi-detection"
 version = "0.1.0"
 description = "Personal Information Detection tool"
 readme = "README.md"
