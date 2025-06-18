@@ -49,3 +49,16 @@ See also the [example corpus config file](https://github.com/spraakbanken/sparv-
 All of the models used in this plugin are classifiers based on [KB-BERT](https://huggingface.co/KB/bert-base-swedish-cased). They can be found [here](https://huggingface.co/collections/Turtilla/pi-detection-and-labeling-6822fbc8fbccfc2527c019ba). See [this publication](https://aclanthology.org/2025.nodalida-1.70/) for training details.  
 
 See the webpage of the [Mormor Karl project](https://mormor-karl.github.io/) for more information on the work we do on automatic pseudonymization of research data.
+
+## Citing
+
+If you use this plugin e.g. in a publication, please cite it as:
+
+[Språkbanken Text. sbx-swe-pi_detection-sparv [Analysis]. Språkbanken Text. https://doi.org/10.23695/6wp0-ds77](https://spraakbanken.gu.se/en/analyses/sbx-swe-pi_detection-sparv)
+
+And
+
+Maria Irena Szawerna, Simon Dobnik, Ricardo Muñoz Sánchez, and Elena Volodina. 2025. [The Devil’s in the Details: the Detailedness of Classes Influences Personal Information Detection and Labeling](https://aclanthology.org/2025.nodalida-1.70/). In _Proceedings of the Joint 25th Nordic Conference on Computational Linguistics and 11th Baltic Conference on Human Language Technologies (NoDaLiDa/Baltic-HLT 2025)_, pages 697–708, Tallinn, Estonia. University of Tartu Library.
+
+
+
