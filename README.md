@@ -1,10 +1,10 @@
 # sparv-sbx-pi-detection  
 
-A plugin for [Sparv](https://github.com/spraakbanken/sparv) for detecting personal information in Swedish texts, especially learner essays (_note: performs noticeably worse on other domains, but the models used for annotation will likely be updated in the future)_.  
+A plugin for [Sparv](https://spraakbanken.gu.se/sparv/) for detecting personal information in Swedish texts, especially learner essays (_note: performs noticeably worse on other domains, but the models used for annotation will likely be updated in the future)_.  
 
 ## Install
 
-1. Install [Sparv](https://github.com/spraakbanken/sparv):  
+1. Install [Sparv](https://spraakbanken.gu.se/sparv/):  
 ```
 pipx install sparv
 sparv setup
