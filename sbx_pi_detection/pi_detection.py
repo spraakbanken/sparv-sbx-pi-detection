@@ -13,7 +13,7 @@ logger = get_logger(__name__)
            )
 def pi_detection(
     word: Annotation = Annotation("<token:word>"),
-    out: Output = Output("<token>:sbx_pi_detection.pi"),
+    out: Output = Output("<token>:sbx_pi_detection.pi", description="The type of personal information that the token has: O if it is not personal information or one of the tags defined by the model selected via the configuration."),
     annotation_level: str = Config("sbx_pi_detection.annotation_level")
     ):
     # get the model path when the model comes with the plugin
